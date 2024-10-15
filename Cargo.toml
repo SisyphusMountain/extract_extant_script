@@ -1,0 +1,19 @@
+[package]
+name = "extract_extant_script"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num = "0.4.1"
+time = "0.3.29"
+petgraph = "0.6.4"
+regex = "1.10.2"
+rand = "0.8.5"
+prettytable-rs = "0.10.0"
+csv = "1.3.0"
+pest = "2.7.4"
+
+[dependencies.newick_parser]
+path = "../newick_parser"
